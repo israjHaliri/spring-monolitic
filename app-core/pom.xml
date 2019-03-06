@@ -125,15 +125,15 @@
             <properties>
                 <log.path>C:/templateapp/log/core</log.path>
             </properties>
-            <activation>
-                <activeByDefault>true</activeByDefault>
-            </activation>
         </profile>
         <profile>
             <id>mac</id>
             <properties>
-                <log.path>/Volumes/Base/Users/israjhaliri/Downloads/templateapp</log.path>
+                <log.path>/tmp</log.path>
             </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
         </profile>
     </profiles>
 
